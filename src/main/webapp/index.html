@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple calculator</title>
+	shruti
+  </head>
+<body>
+Enter the 1st number:<input type="number" id="num1" required autofocus>
+Enter the 2nd number:<input type="number" id="num2" required>
+<input type="button" value="Add" onclick="add();">
+  <input type="button" value="Add" onclick="add();">
+<div id="Result">
+</div>
+  <script> 
+  function add()
+    {
+      var n1=document.getElementById("num1").value
+      var n2=document.getElementById("num2").value
+      var sum=+n1 + +n2;
+      alert("sum is "+sum);
+      document.getElementById("Result").innerText
+    }
+    
+  </script>
+</body>
+</html>
